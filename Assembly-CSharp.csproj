@@ -61,10 +61,10 @@
     <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\Card.cs" />
+    <Compile Include="Assets\Screen.cs" />
     <Compile Include="Assets\Attack.cs" />
     <Compile Include="Assets\HealthBar.cs" />
     <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\Screen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
