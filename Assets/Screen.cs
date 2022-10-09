@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Build;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Screen : MonoBehaviour
 {
@@ -25,6 +21,17 @@ public class Screen : MonoBehaviour
         else if (res == 2)
         {
             Debug.Log("Resolusi Sekarang : 854 x 480");
+        }
+    }
+    public void SubmitDropDownDisplay(int res)
+    {
+        if (res == 0)
+        {
+            Debug.Log("Display Sekarang : Fullscreen");
+        }
+        else if (res == 1)
+        {
+            Debug.Log("Display Sekarang : Windowed");
         }
     }
 
